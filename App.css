@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Footer{
+  margin-top: auto;
+}
+
+.Body {
+  display: flex;
+}
+
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tableDisplay {
+  display: flex;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px; /* Adds padding inside cells */
+}
+
+th {
+  background-color: #e8e3e3;
+  text-align: left; /* Aligns text to the left */
+  width: 60px;
+}
+
+.td-content {
+  display: flex;       /* Enables flexbox */
+  align-items: center; /* Vertically center align items */
+  justify-content: flex-end; /* Align items to the start (left) */
+  gap: 10px;
+}
+
+button {
+  background-color: #e8e3e3;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
